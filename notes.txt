@@ -1,0 +1,16 @@
+This a place for ideas and tasks
+
+NOTE:
+ - Store state as a bit string so that we can use bit operators to determine if two states are the same
+ - Look into removing deadlock positions from the level at the beginning (e.g. non-goal corners)
+ - If a box is pushed into a tunnel, automatically push all the way to the end
+ - PI corals - if this occurs immediately move the boxes on its border
+ - Iterative Deepening A* is the best so far
+ - Testing whether puzzle is solvable can easily
+ - Need to make test for dead spots callable by room generators
+ - Map should be a box grid of binary (acessible/not accessible) in an array (movement of index will either be +-1 for left and right or +-length for up and down)
+
+
+
+Level Generation Ideas:
+ - Need to remove ability to place boxs and goals in dead spots
